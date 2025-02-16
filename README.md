@@ -48,12 +48,34 @@ curl "http://localhost:3000/getShalatbln?x=c20ad4d76fe97759aa27a0c99bff6710&y=ee
 
 ```json
 {
-  "imsak": "04:30",
-  "subuh": "04:40",
-  "dzuhur": "12:00",
-  "ashar": "15:30",
-  "maghrib": "18:00",
-  "isya": "19:15"
+    "status": 1,
+  "message": "Success",
+  "prov": "JAWA BARAT",
+  "kabko": "KOTA CIMAHI",
+  "data": {
+    "2030-02-01": {
+      "tanggal": "Jumat, 01/02/2030",
+      "imsak": "04:22",
+      "subuh": "04:32",
+      "terbit": "05:44",
+      "dhuha": "06:16",
+      "dzuhur": "12:07",
+      "ashar": "15:26",
+      "maghrib": "18:23",
+      "isya": "19:31"
+    },
+    "2030-02-02": {
+      "tanggal": "Sabtu, 02/02/2030",
+      "imsak": "04:22",
+      "subuh": "04:32",
+      "terbit": "05:44",
+      "dhuha": "06:16",
+      "dzuhur": "12:07",
+      "ashar": "15:25",
+      "maghrib": "18:23",
+      "isya": "19:31"
+    }
+  }
 }
 ```
 
