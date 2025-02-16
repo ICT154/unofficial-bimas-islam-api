@@ -48,7 +48,7 @@ curl "http://localhost:3000/getShalatbln?x=c20ad4d76fe97759aa27a0c99bff6710&y=ee
 
 ```json
 {
-    "status": 1,
+  "status": 1,
   "message": "Success",
   "prov": "JAWA BARAT",
   "kabko": "KOTA CIMAHI",
